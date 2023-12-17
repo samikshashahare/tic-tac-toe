@@ -1,0 +1,76 @@
+.main-heading {
+    color: rgb(1, 1, 33);
+    text-align: center;
+    font-size: 40px;
+}
+
+.board {
+    display: block;
+    margin: 25px auto;
+    background-color: orangered;
+    width: fit-content;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+.text-center{
+    text-align: center;
+}
+.players-contianer{
+    display: flex;
+    justify-content: space-around;
+}
+.player-title{
+    font-size: 25px;
+}
+.current-player-text{
+    font-size: 25px;
+}
+.winner-text{
+    text-align: center;
+    font-size: 25px;
+    background-color:lightsalmon;
+    box-shadow: 2px 2px 2px 1px grey ;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 150px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 85px;
+    height: 85px;
+    border: 1px solid orangered;
+    background-color: rgb(207, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.box:hover {
+    box-shadow: 1px 1px 4px 2px grey;
+    cursor:pointer;
+    transition: 0.5s;
+    background-color: rgb(237, 234, 234);
+    z-index:100;
+}
+.reset-btn{
+    display: block;
+    margin :60px auto;
+    background-color: orangered;
+    font-size: 25px;
+    padding: 5px 60px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 2px rgb(113, 113, 113);
+}
+.reset-btn:hover{
+cursor: pointer;
+background-color: rgb(253, 125, 78);
+}
